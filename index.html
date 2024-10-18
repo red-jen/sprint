@@ -3,41 +3,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAKERY</title>
-    <link rel="stylesheet" href="style.css">
-    <link  rel="icon" type="image/jpg" href="https://www.figma.com/file/1AmDnkbB3miVmkUzzosTCg/image/4d281571e79bdb349abc8c697f7ce697aa1a0058">
+    <title>Delicious Cafe - Sweet Treats, Perfect Eats</title>
+    <link rel="stylesheet" href="stil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sansita+Swashed:wght@300;400;500;600;700;800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+     rel="stylesheet">
 </head>
 <body>
-    <header>
-        
-        <nav>
-           <div> <a href="index.html" >
-                <img class="logo" src="./img/Modrino__2_-removebg-preview 1.png" > </a>
+    <div class="home-container">
+        <nav class="nav-bar">
+            <div class="logo">
+               <a href="./index.html">
+                <img src="./img/Modrino__2_-removebg-preview 1.png" alt="Keith Ston">
+            </a> 
             </div>
-           <div> <a href="index.html" class="active"> Home</a></div>
-           <div> <a href="blog.html" >Blog</a></div>
-            <div><a href="contact.html" >Contact Us</a></div>
-            <div><a href="Services.html" >Services</a></div>
+            <div class="nav-items">
+                <a href="./index.html#home-container">Home</a>
+                <a href="./blog.html#1o">Blog</a>
+                <a href="./contact.html#o3">Contact Us</a>
+                <a href="./Services.html#o2">Services</a>
+            </div>
         </nav>
-
-    </header>
-    <section>
-        <h1>deleciious cafe</h1>
-        <h1>sweeet treats, Perfect EAts</h1>
-        <button> Shop now</button>
-        <a>learn More</a>
-    </section>
-    <div class="div-container">
-
-
-        <div><img src="" ></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-
-
+        <div class="content">
+            <div class="subtitle">Delicious Cafe</div>
+            <h1>Sweet Treats,<br>Perfect Eats</h1>
+            <div class="buttons">
+                <button class="btn btn-primary">Shop Now</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
     </div>
+    <section id="home"></section>
+<section id="blog"></section>
+<section id="contact"></section>
+<section id="services"></section>
+    <section  class="top-products" id="1o">
+        <h2>Top Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./images/products/product1.png" alt="Whole Grain Bread" class="product-image">
+                <div class="product-info">
+                    <div class="product-price">$40</div>
+                    <div class="product-name">Whole Grain Bread</div>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="info-icon"></div>
+            </div>
+            <div class="product-card">
+                <img src="./images/products/product2.png" alt="Whole Grain Bread" class="product-image">
+                <div class="product-info">
+                    <div class="product-price">$40</div>
+                    <div class="product-name">Whole Grain Bread</div>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="info-icon"></div>
+            </div>
+            <div class="product-card">
+                <img src="./images/products/product3.png" alt="Whole Grain Bread" class="product-image">
+                <div class="product-info">
+                    <div class="product-price">$40</div>
+                    <div class="product-name">Whole Grain Bread</div>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="info-icon"> <img src="./svg logs/i.svg"> </div>
+            </div>
+            <div class="product-card">
+                <img src="./images/products/product4.png" alt="Whole Grain Bread" class="product-image">
+                <div class="product-info">
+                    <div class="product-price">$40</div>
+                    <div class="product-name">Whole Grain Bread</div>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="info-icon"></div>
+            </div>
+            <div class="product-card">
+                <img src="./images/products/product5.png" alt="Whole Grain Bread" class="product-image">
+                <div class="product-info">
+                    <div class="product-price">$40</div>
+                    <div class="product-name">Whole Grain Bread</div>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="info-icon"></div>
+            </div>
+            <div class="product-card">
+                <img src="./images/products/product6.png" alt="Whole Grain Bread" class="product-image">
+                <div class="product-info">
+                    <div class="product-price">$40</div>
+                    <div class="product-name">Whole Grain Bread</div>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="info-icon"></div>
+            </div>
+        </div>
+    </section>
+    <section class="discount-banner">
+        <div class="discount-content">
+            <h2 class="discount-title">20% Off Your First Order</h2>
+            <p class="discount-description">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum.</p>
+            <button class="discount-button">Learn More</button>
+        </div>
+        <div class="discount-image">
+            <!-- <img src="./images/promotion.png" alt="Assortment of breads"> -->
+        </div>
+    </section>
+
+    <section class="explore-more" id="o2">
+        <h2 class="explore-title">Explore More</h2>
+        <div class="explore-categories">
+            <div class="category active">Cake</div>
+            <div class="category">Muffins</div>
+            <div class="category">Croissant</div>
+            <div class="category">Bread</div>
+            <div class="category">Tart</div>
+            <div class="category">Favorite</div>
+        </div>
+        <div class="explore-grid">
+            <div class="explore-item">
+                <img src="./images/explore/img1.png" alt="Blueberry Muffin">
+            </div>
+            <div class="explore-item">
+                <img src="./images/explore/img2.png" alt="Berry Cheesecake">
+            </div>
+            <div class="explore-item">
+                <img src="./images/explore/img3.png" alt="Fruit Tart">
+            </div>
+            <div class="explore-item">
+                <img src="./images/explore/img4.png" alt="Lemon Cake">
+            </div>
+            <div class="explore-item">
+                <img src="./images/explore/img5.png" alt="Chocolate Cake">
+            </div>
+            <div class="explore-item">
+                <img src="./images/explore/img6.png" alt="Cupcake">
+            </div>
+        </div>
+    </section>
+
+    <!-- waaaaaaah bit n3ess hadi talta -->
+    <section class="about-us">
+        <div class="about-content">
+            <h2 class="about-title">About us</h2>
+            <p class="about-description">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis.</p>
+            <button class="about-button">Read More</button>
+        </div>
+        <div class="about-image">
+            <!-- <img src="about-image-1.jpg" alt="Bread and wheat">
+            <img src="about-image-2.jpg" alt="Fresh baked goods"> -->
+        </div>
+    </section>
+
+    <section class="featured-treats">
+        <h2 class="featured-title">Featured Treats</h2>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <img src="./images/features/brownies.png" alt="Puff Pastry">
+                <div class="featured-info">
+                    <span class="featured-name">Puff Pastry</span>
+                    <span class="featured-price">$8</span>
+                </div>
+            </div>
+            <div class="featured-item">
+                <img src="./images/features/dougnuts.png" alt="Doughnuts">
+                <div class="featured-info">
+                    <span class="featured-name">Doughnuts</span>
+                    <span class="featured-price">$8</span>
+                </div>
+            </div>
+            <div class="featured-item">
+                <img src="./images/features/puff-pastry.png" alt="Brownies">
+                <div class="featured-info">
+                    <span class="featured-name">Brownies</span>
+                    <span class="featured-price">$8</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacte moi svp hh -->
+    <section class="contact-section" id="o3">
+        <div class="contact-content">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="message-type">
+                        <button type="button" class="active">Customer Service</button>
+                        <button type="button">Feedback</button>
+                        <button type="button">Partnership</button>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Bakery Street, Sweetville, CA 90210</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@deliciouscafe.com</p>
+                <p><i class="fas fa-clock"></i> Mon-Sat: 7am - 8pm, Sun: 8am - 6pm</p>
+            </div>
+        </div>
+        </section>
+        <!-- about hna         -->
+    <footer id="About-us">
+        <div class="about">
+          <div class="loogo"  ><a href="#"><img src="./images/logo.png"></a></div>
+          
+            <div class="co_img">
+                
+                <h2>Follow us</h2>
+                
+               <div class="lst"> <img src="./svg logs/facebook.svg" alt="facebook">
+                <img src="./svg logs/instagram.svg" alt="instagram">
+                <img src="./svg logs/pinterest.svg" alt="pinterest">
+                <img id="omy" src="./svg logs/whatsapp.svg" alt="whatsapp"></div>
+            </div>  
+
+        </div>
+
+        <div class="finish">
+            <div class="ab">
+        <div>About Us</div>
+        <div>(456) 789-12301</div>
+        <div>info@modrino.co.uk</div>
+        <div>South 13th street</div>
+        <div>New york America</div>
+        </div>
+        <div class="ac">
+            <div>Explore</div>
+            <div>Home</div>
+            <div>blog</div>
+            <div>Contact us</div>
+            <div>Services</div>
+            </div>
+            <div class="ad">
+                <div>Recent News</div>
+                <div class="min-card">
+                    <div><img src="./images/footer/footer-img1.png"></div>
+                   <div> <div>june 14,2024</div>
+                    <div>Puff pastry bliss</div></div>
+                </div>
+                
+                <div class="min-card2">
+                    <div><img src="./images/footer/footer-img2.png"></div>
+                    <div><div>june 14,2024</div>
+                    <div>Puff pastry bliss</div>
+                </div>
+                </div>
+                </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Bake House. All rights reserved</p>
+    </div>
+    </footer>
 </body>
 </html>
