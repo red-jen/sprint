@@ -112,6 +112,10 @@ h1 {
     font-size: 24px;
     margin-bottom: 40px;
 }
+h2{
+    font-family: 'Sansita Swashed';
+    color: #000000;
+}
 .top-products {
     padding: 80px 10%;
     background-color: #fff;
@@ -136,6 +140,7 @@ h1 {
     background-size: cover; /* Ensures the image covers the entire card */
     background-position: center;
     border-radius: 10px;
+    
     overflow: hidden;
     position: relative;
     color: white;
@@ -143,8 +148,8 @@ h1 {
 
 .product-image {
     /* background-image: url(./images/products/product-bg.png); */
-    width: 80%;
-    height: 200px;
+    width: 95%;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -201,6 +206,7 @@ h1 {
 }
 .discount-banner {
     background-image: url(./images/promotion.png);
+    height: 50vh;
     background-size: cover;
     background-color: #f5f5f5;
     padding: 40px 10%;
@@ -210,11 +216,16 @@ h1 {
 }
 
 .discount-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
+    margin-left: 30%;
 }
 
 .discount-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Sansita Swashed';
     font-size: 36px;
     color: #8B4513;
     margin-bottom: 15px;
@@ -230,6 +241,7 @@ h1 {
     background-color: #8B4513;
     color: white;
     border: none;
+    border-radius: 8%;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -256,9 +268,10 @@ h1 {
 }
 
 .explore-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Sansita Swashed';
     font-size: 36px;
     text-align: center;
+    color: #000000;
     margin-bottom: 30px;
 }
 
@@ -319,6 +332,7 @@ h1 {
     background-size: cover;
     background-color: #1a1a1a;
     color: white;
+    height: 50vh;
     padding: 60px 10%;
     display: flex;
     align-items: center;
@@ -326,17 +340,24 @@ h1 {
 }
 
 .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
     padding-right: 40px;
+    margin-left: 30%;
 }
 
 .about-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Sansita Swashed';
     font-size: 36px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .about-description {
+    color: #666;
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -346,6 +367,7 @@ h1 {
     background-color: #8B4513;
     color: white;
     border: none;
+    border-radius: 8px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -374,7 +396,8 @@ h1 {
 }
 
 .featured-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Sansita Swashed';
+    color: #000000;
     font-size: 36px;
     text-align: center;
     margin-bottom: 40px;
@@ -570,7 +593,8 @@ textarea {
     
 }
 .about h2{
-    
+    font-family: 'inter';
+    color: rgba(233, 189, 140, 1);
       margin-right: 0%;
      font-size: large;
     justify-self: end;
@@ -590,9 +614,25 @@ textarea {
 .ab div{
     padding: 10px;
 }
-
+.ac a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
 .ac div{
     padding: 10px;
+    color: #f5f5f5;
+}
+.ad a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
 }
 .ad div{
     /* background-color: #f5f5f5; */
@@ -617,11 +657,16 @@ textarea {
     padding-top: 20px;
     border-top: 1px solid #333;
 }
+.hh{
+    color: rgba(233, 189, 140, 1);
+    font-size: x-large;
+    font-family: 'inter';
+}
 
 
-
-
-
+.info-icon{
+    margin-top: 90%;
+}
 
 
 
