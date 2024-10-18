@@ -1,0 +1,138 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+   
+}
+
+#About-us {
+    background-color: #A0522D;
+    background-image: url(./images/footer/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 10%;
+    display: flex; /* Added display: flex to the footer */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Vertically center items */
+}
+
+.about {
+    display: flex; /* Ensures the about div is a flex container */
+    align-items: center; /* Vertically aligns items within .about */
+    border-bottom: solid 2px gray;
+}
+
+.loogo {
+    /* Removed unnecessary styles */
+}
+
+.co_img {
+    display: flex; /* Makes the social icons a flex container */
+    align-items: center; /* Vertically aligns social icons */
+}
+
+.co_img img {
+    padding-right: 8px; /* Keeps the padding */
+}
+
+.about img {
+    /* Removed unnecessary styles */
+}
+
+.about h2 {
+    font-size: large;
+    /* Removed unnecessary styles */
+}
+.footer-rest {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; /* Adjust as needed */
+}
+
+.footer-section {
+    flex: 1; /* Ensures sections take equal width */
+    margin-right: 30px; /* Adjust as needed */
+}
+
+.recent-news {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.recent-news img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.news-content {
+    font-size: 14px;
+}
+
+.news-date {
+    font-size: 12px;
+    color: #888;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+/* Responsive adjustments (optional): */
+.footer-rest {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; /* Adjust as needed */
+}
+
+.footer-section {
+    flex: 1; /* Ensures sections take equal width */
+    margin-right: 30px; /* Adjust as needed */
+}
+
+.recent-news {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.recent-news img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.news-content {
+    font-size: 14px;
+}
+
+.news-date {
+    font-size: 12px;
+    color: #888;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+/* Responsive adjustments (optional): */
+@media (max-width: 768px) {
+    .footer-rest {
+        flex-direction: column; /* Stack sections vertically on smaller screens */
+    }
+    .footer-section {
+        margin-bottom: 30px; /* Add margin between sections */
+        margin-right: 0; /* Remove right margin */
+    }
+}
