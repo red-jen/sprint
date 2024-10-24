@@ -668,6 +668,25 @@ textarea {
     margin-top: 90%;
 }
 
+@media (max-width: 640px) {
+    .nav-bar{
+        width: 100%;
+        flex-basis: content;
+    }
+    .nav-items {
+        /* background-color: #A0522D; */
+        display: flex;
+        flex-basis: content;
+        justify-content: start;
+        margin-left: 0%;
+        gap: 0px; 
+        justify-self: start;
+    }
+    .nav-items a{
+        color: #8B4513;
+    }
+}
+
 
 
 
